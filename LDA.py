@@ -298,7 +298,7 @@ if __name__ == "__main__":
     # 设置文件路径
     data_file = 'data/总原始数据.xlsx'
     stopwords_file = 'data/哈工大停用词表.txt'
-    custom_stopwords_file = 'data/自定义停用词表.txt'
+    custom_stopwords_file = 'data/自定义停用词表_1.txt'
     # 1. 加载与预处理数据
     df = load_and_preprocess_data(data_file)
     # 2. 分词与去停用词
